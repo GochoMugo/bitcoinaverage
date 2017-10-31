@@ -19,9 +19,9 @@ To install the library, you just need to run the following command:
 # from master branch
 $ npm install github:GochoMugo/bitcoinaverage
 
-# or better yet, use a tag e.g. 0.0.0
+# or better yet, use a tag e.g. v0.0.0
 # latest release: https://github.com/GochoMugo/bitcoinaverage/releases/latest
-$ npm install github:GochoMugo/bitcoinaverage#0.0.0
+$ npm install github:GochoMugo/bitcoinaverage#v0.0.0
 ```
 
 
