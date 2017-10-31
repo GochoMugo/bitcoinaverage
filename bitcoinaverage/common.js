@@ -22,7 +22,8 @@ function getResourceForFullUrl(url, publicKey, secretKey, handleResponseFunction
         url: url,
         headers: {
             'X-Signature': signature
-        }
+        },
+        json: true,
     };
 
     request(options, function (error, response, body) {
