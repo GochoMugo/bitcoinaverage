@@ -1,0 +1,32 @@
+{
+  "author": {
+    "name": "BitcoinAverage"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "request": "^2.81.0",
+    "ws": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "BitcoinAverage NodeJS Client",
+  "homepage": "https://bitcoinaverage.com/",
+  "keywords": [
+    "bitcoinaverage",
+    "bitcoin",
+    "ethereum",
+    "bitcoin",
+    "price",
+    "bitcoin",
+    "ticker",
+    "bitcoin",
+    "websocket"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bitcoinaverage",
+  "scripts": {
+    "test": "./bitcoinaverage/test.js"
+  },
+  "version": "0.1.4"
+}
