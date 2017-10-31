@@ -27,11 +27,12 @@ function getResourceForFullUrl(url, publicKey, secretKey, handleResponseFunction
     };
 
     request(options, function (error, response, body) {
-        if (!error && response.statusCode == 200) {
-            handleResponseFunction(body);
+        if (error) {
+            return handleResponseFunction(error);
         }
-        else {
-            throw response.statusMessage;
+        if (response.statusCode !== 200) {
+            return handleResponseFunction(response);
         }
+        return handleResponseFunction(null, body);
     });
 }
